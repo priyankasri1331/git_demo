@@ -1,5 +1,5 @@
 
-Part 1:
+Part 1: Fundamentals
 
 a. With Readme
 
@@ -28,5 +28,36 @@ B. Without readme
 9. git push -u origin master
 
 
-Part 2:
+Part 2: Creating branches
+
+1. Let's say there is a remote file that somebody else pushed,
+   Use command - git pull
+2. To add a branch in master branch - git branch branchname
+3. Switch the branch - git checkout branchname
+4. Adding a file in the branch - echo "#content">> filename.txt
+5. To create branch remotely - git push --set-upstream origin branchname
+6. Switch branch to master again using - git checkout master
+7. Merge the branches - git merge mybranch - This happens locally. To merge in remote, you should push
+
+
+Part 3: Fork a repository and create pull request
+
+
+Why to fork?
+
+If you cannot get a commit right to that repository, then create a fork and then pull request.
+
+1. Click fork and copy the repository in your account
+2. Copy SSH rep link and clone - git clone yoursshrepolink
+3. Edit files that you want
+4. git add .
+5. git commit -m "message"
+6. git push
+7. Create a pull request to make changes in the original file.
+
+
+Creating SSH keys
+In home folder, there is ssh folder, then you will have public and private keys
+In github page, create new SSH key and paste the public key content.
+Donot ahare private key
 
