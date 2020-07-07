@@ -1,0 +1,32 @@
+
+Part 1:
+
+a. With Readme
+
+1. Create new repository
+2. Clone/download using https.
+3. In cmd, go to the target folder
+4. Create a folder using repository link with command "git clone https:...."
+5. Windows - dir
+6. View Readme content with command type README.md
+7. Create a file using notepad git_inst.txt
+8. Add to repository using - git add git_inst.txt
+9. Check status using -  git status
+10. Commit changes using - git commit -m "mesg here"
+11. Push the file to remote repository using - git push
+
+B. Without readme
+
+1. mkdir new_folder
+2. cd new_folder
+3. echo "# new_folder >> README.md
+4. git init - Initialize the folder/dir
+5. git add README.txt
+6. git status
+7. git commit -m "msg here"
+8. git remote add origin SSHRepository/HTTPS repository link
+9. git push -u origin master
+
+
+Part 2:
+
